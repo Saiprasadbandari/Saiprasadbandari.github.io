@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sai Prasad Bandari — AI / Data Science Engineer</title>
+<meta name="description" content="Sai Prasad Bandari — AI / Data Science Engineer pursuing MSc Artificial Intelligence Systems at EPITA, Paris. Machine learning, deep learning, RAG systems, and data engineering portfolio." />
+<meta name="keywords" content="Sai Prasad Bandari, Bandari Sai Prasad, AI Engineer, Data Scientist, Machine Learning Engineer, EPITA, Paris" />
+<meta name="author" content="Sai Prasad Bandari" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://saiprasadbandari.github.io/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Sai Prasad Bandari — AI / Data Science Engineer" />
+<meta property="og:description" content="MSc Artificial Intelligence Systems candidate at EPITA, Paris. Portfolio of machine learning, deep learning and data engineering projects." />
+<meta property="og:url" content="https://saiprasadbandari.github.io/" />
+<meta property="profile:first_name" content="Sai Prasad" />
+<meta property="profile:last_name" content="Bandari" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Sai Prasad Bandari — AI / Data Science Engineer" />
+<meta name="twitter:description" content="MSc Artificial Intelligence Systems candidate at EPITA, Paris." />
+
+<!-- Structured data for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sai Prasad Bandari",
+  "url": "https://saiprasadbandari.github.io/",
+  "jobTitle": "AI / Data Science Engineer",
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "EPITA - School of Engineering and Computer Science" },
+    { "@type": "CollegeOrUniversity", "name": "Christu Jyothi Institute of Technology and Sciences" }
+  ],
+  "email": "mailto:saiprasadbandari7@gmail.com",
+  "sameAs": [
+    "https://github.com/Saiprasadbandari",
+    "https://www.linkedin.com/in/bandari-sai-prasad-676115385"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- BOOT SEQUENCE -->
+<div id="boot-screen">
+  <div class="boot-lines" id="boot-lines"></div>
+  <div class="boot-bar-wrap">
+    <div class="boot-bar"><div class="boot-bar-fill" id="boot-bar-fill"></div></div>
+    <div class="boot-pct" id="boot-pct">0%</div>
+  </div>
+</div>
+
+<!-- BACKGROUND CANVAS -->
+<canvas id="bg-canvas"></canvas>
+<div class="grid-overlay"></div>
+<div class="scanline"></div>
+<div class="vignette"></div>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">SP<span>B</span><span class="nav-logo-dot">_</span></div>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home" data-nav="home"><span class="nav-idx">00</span>HOME</a></li>
+    <li><a href="#about" data-nav="about"><span class="nav-idx">01</span>PROFILE</a></li>
+    <li><a href="#skills" data-nav="skills"><span class="nav-idx">02</span>SYSTEMS</a></li>
+    <li><a href="#experience" data-nav="experience"><span class="nav-idx">03</span>EXPERIENCE</a></li>
+    <li><a href="#projects" data-nav="projects"><span class="nav-idx">04</span>PROJECTS</a></li>
+    <li><a href="#education" data-nav="education"><span class="nav-idx">05</span>ORIGIN</a></li>
+    <li><a href="#contact" data-nav="contact"><span class="nav-idx">06</span>CONTACT</a></li>
+  </ul>
+</nav>
+
+<main id="main-content">
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-inner">
+      <div class="hero-tag-row">
+        <span class="hero-tag">[ SYSTEM ONLINE ]</span>
+        <span class="hero-tag hero-tag-blink">● LIVE</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-line glitch" data-text="SAI PRASAD">SAI PRASAD</span>
+        <span class="hero-title-line hero-title-accent glitch" data-text="BANDARI">BANDARI</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="typed-text" id="typed-text"></span><span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        MSc Artificial Intelligence Systems candidate at <strong>EPITA, Paris</strong>.
+        Building intelligent systems across machine learning, deep learning and data engineering —
+        from sensor to model to deployment.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary"><span>VIEW PROJECTS</span></a>
+        <a href="#contact" class="btn btn-ghost"><span>INITIATE CONTACT</span></a>
+      </div>
+      <div class="hero-coords">
+        <span>LE KREMLIN-BICÊTRE · PARIS, FR</span>
+        <span>LAT 48.7900° N / LON 2.3450° E</span>
+      </div>
+    </div>
+    <div class="hero-hud">
+      <div class="hud-ring hud-ring-1"></div>
+      <div class="hud-ring hud-ring-2"></div>
+      <div class="hud-ring hud-ring-3"></div>
+      <div class="hud-core"></div>
+    </div>
+    <div class="scroll-indicator">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 class="section-title">PROFILE<span class="section-title-dim">.dat</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="panel about-bio" data-tilt>
+        <div class="panel-corner tl"></div><div class="panel-corner tr"></div>
+        <div class="panel-corner bl"></div><div class="panel-corner br"></div>
+        <p>
+          I'm an AI / Data Science student currently pursuing an MSc in Artificial Intelligence Systems
+          at EPITA, Paris — after building a foundation in Electronics &amp; Communication Engineering
+          and over two years of hands-on experience in operational data analysis.
+        </p>
+        <p>
+          My work spans machine learning pipelines, deep learning architectures, retrieval-augmented
+          generation systems, and IoT-driven engineering — with a focus on turning raw, noisy data
+          into systems that make decisions.
+        </p>
+        <div class="about-meta">
+          <div class="about-meta-item"><span class="label">LOCATION</span><span>Paris, France</span></div>
+          <div class="about-meta-item"><span class="label">STATUS</span><span>MSc AI Systems — Ongoing</span></div>
+          <div class="about-meta-item"><span class="label">FOCUS</span><span>ML · Deep Learning · Data Eng.</span></div>
+        </div>
+      </div>
+      <div class="panel about-languages" data-tilt>
+        <div class="panel-corner tl"></div><div class="panel-corner tr"></div>
+        <div class="panel-corner bl"></div><div class="panel-corner br"></div>
+        <h3 class="panel-subtitle">LANGUAGE.PROTOCOLS</h3>
+        <ul class="lang-list">
+          <li><span>ENGLISH</span><div class="lang-bar"><div class="lang-fill" style="--pct:100%"></div></div><span class="lang-level">Fluent</span></li>
+          <li><span>TELUGU</span><div class="lang-bar"><div class="lang-fill" style="--pct:100%"></div></div><span class="lang-level">Native</span></li>
+          <li><span>HINDI</span><div class="lang-bar"><div class="lang-fill" style="--pct:70%"></div></div><span class="lang-level">Intermediate</span></li>
+          <li><span>FRENCH</span><div class="lang-bar"><div class="lang-fill" style="--pct:35%"></div></div><span class="lang-level">A1/A2</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">SYSTEMS<span class="section-title-dim">.core</span></h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="panel skill-card" data-tilt>
+        <div class="skill-card-head"><span class="skill-icon">⌁</span><h3>LANGUAGES</h3></div>
+        <div class="skill-tags">
+          <span class="tag tag-lvl-3">Python <i>Advanced</i></span>
+          <span class="tag tag-lvl-3">SQL <i>Advanced</i></span>
+          <span class="tag tag-lvl-2">C <i>Intermediate</i></span>
+        </div>
+      </div>
+
+      <div class="panel skill-card" data-tilt>
+        <div class="skill-card-head"><span class="skill-icon">◈</span><h3>MACHINE LEARNING</h3></div>
+        <div class="skill-tags">
+          <span class="tag">Supervised Learning</span>
+          <span class="tag">Unsupervised Learning</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Feature Engineering</span>
+          <span class="tag">Model Evaluation</span>
+        </div>
+      </div>
+
+      <div class="panel skill-card" data-tilt>
+        <div class="skill-card-head"><span class="skill-icon">◬</span><h3>FRAMEWORKS</h3></div>
+        <div class="skill-tags">
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">Hugging Face</span>
+        </div>
+      </div>
+
+      <div class="panel skill-card" data-tilt>
+        <div class="skill-card-head"><span class="skill-icon">⬡</span><h3>DATA ENGINEERING</h3></div>
+        <div class="skill-tags">
+          <span class="tag">ETL Pipelines</span>
+          <span class="tag">Data Modeling</span>
+          <span class="tag">Apache Spark <i>Basics</i></span>
+          <span class="tag">Apache Kafka <i>Basics</i></span>
+          <span class="tag">Airflow <i>Basics</i></span>
+        </div>
+      </div>
+
+      <div class="panel skill-card" data-tilt>
+        <div class="skill-card-head"><span class="skill-icon">⌬</span><h3>ML ARCHITECTURES</h3></div>
+        <div class="skill-tags">
+          <span class="tag">CNN</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">Transformers</span>
+          <span class="tag">BERT</span>
+          <span class="tag">LSTM</span>
+          <span class="tag">RAFT</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">EXPERIENCE<span class="section-title-dim">.log</span></h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item" data-tilt>
+        <div class="timeline-node"></div>
+        <div class="panel timeline-card">
+          <span class="timeline-date">OCT 2023 — FEB 2026</span>
+          <h3 class="timeline-role">Process Associate</h3>
+          <span class="timeline-org">Genpact Pvt. Ltd. · Telangana, India</span>
+          <ul class="timeline-list">
+            <li>Processed and analyzed large-scale datasets to ensure operational accuracy and efficiency.</li>
+            <li>Performed data validation and quality checks, improving data integrity and reducing errors.</li>
+            <li>Automated repetitive data processing tasks using Excel and scripting, increasing workflow efficiency.</li>
+            <li>Generated reports and dashboards to support business decision-making.</li>
+            <li>Worked with SAP and Excel for structured data management and reporting.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-tilt>
+        <div class="timeline-node"></div>
+        <div class="panel timeline-card">
+          <span class="timeline-date">JAN 2023 — JUL 2023</span>
+          <h3 class="timeline-role">Data Science Intern</h3>
+          <span class="timeline-org">DHAPPS Edutech Pvt. Ltd. · Telangana, India</span>
+          <ul class="timeline-list">
+            <li>Collected, cleaned, and analyzed datasets for extracting insights.</li>
+            <li>Performed exploratory data analysis (EDA) using Python.</li>
+            <li>Created visualizations and reports to support decision-making.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-tilt>
+        <div class="timeline-node"></div>
+        <div class="panel timeline-card">
+          <span class="timeline-date">JUL 2020 — AUG 2020</span>
+          <h3 class="timeline-role">Python Programming Intern</h3>
+          <span class="timeline-org">Octa Zen Software Solutions Pvt. Ltd. · Telangana, India</span>
+          <ul class="timeline-list">
+            <li>Developed Python scripts for web scraping and data extraction.</li>
+            <li>Automated data collection processes from websites.</li>
+            <li>Debugged and optimized scripts for performance.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">PROJECTS<span class="section-title-dim">.exe</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="panel project-card" data-tilt>
+        <div class="project-glyph">⟁</div>
+        <span class="project-tag">IoT SYSTEM</span>
+        <h3>Gas Detection &amp; Monitoring Robot</h3>
+        <p>Robotic system to detect harmful gases in mining environments — gas sensors with real-time
+        webcam monitoring, a mobile app for remote control and visualization, built on Arduino + IoT integration.</p>
+        <div class="project-tech"><span>Arduino</span><span>IoT</span><span>Sensors</span><span>Mobile App</span></div>
+        <a class="project-link" href="https://github.com/Saiprasadbandari" target="_blank" rel="noopener">VIEW REPOSITORY →</a>
+      </article>
+
+      <article class="panel project-card" data-tilt>
+        <div class="project-glyph">⌬</div>
+        <span class="project-tag">VLSI / HARDWARE</span>
+        <h3>Cryptographic Algorithm Design</h3>
+        <p>A cryptographic algorithm built on modified Boolean algebra, implemented in VHDL/Verilog and
+        simulated with Xilinx — logic optimized for performance, power, and efficiency.</p>
+        <div class="project-tech"><span>VHDL</span><span>Verilog</span><span>Xilinx</span><span>Boolean Algebra</span></div>
+        <a class="project-link" href="https://github.com/Saiprasadbandari" target="_blank" rel="noopener">VIEW REPOSITORY →</a>
+      </article>
+
+      <article class="panel project-card" data-tilt>
+        <div class="project-glyph">◈</div>
+        <span class="project-tag">MACHINE LEARNING</span>
+        <h3>End-to-End Customer Churn Prediction</h3>
+        <p>ML system predicting customer churn — full data cleaning, feature engineering and EDA pipeline,
+        benchmarking Logistic Regression, Random Forest and XGBoost, deployed via an interactive dashboard.</p>
+        <div class="project-tech"><span>Scikit-learn</span><span>XGBoost</span><span>EDA</span><span>Dashboard</span></div>
+        <a class="project-link" href="https://github.com/Saiprasadbandari" target="_blank" rel="noopener">VIEW REPOSITORY →</a>
+      </article>
+
+      <article class="panel project-card" data-tilt>
+        <div class="project-glyph">◬</div>
+        <span class="project-tag">GENERATIVE AI</span>
+        <h3>RAG-Based AI Document Assistant</h3>
+        <p>Retrieval-Augmented Generation system to query and summarize PDF documents — semantic search via
+        vector embeddings + FAISS, transformer-based contextual QA, served through a Streamlit interface.</p>
+        <div class="project-tech"><span>FAISS</span><span>Transformers</span><span>RAG</span><span>Streamlit</span></div>
+        <a class="project-link" href="https://github.com/Saiprasadbandari" target="_blank" rel="noopener">VIEW REPOSITORY →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2 class="section-title">ORIGIN<span class="section-title-dim">.sys</span></h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item" data-tilt>
+        <div class="timeline-node"></div>
+        <div class="panel timeline-card">
+          <span class="timeline-date">FEB 2026 — ONGOING</span>
+          <h3 class="timeline-role">MSc Artificial Intelligence Systems</h3>
+          <span class="timeline-org">EPITA — School of Engineering and Computer Science · Le Kremlin-Bicêtre, Paris</span>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-tilt>
+        <div class="timeline-node"></div>
+        <div class="panel timeline-card">
+          <span class="timeline-date">JUN 2018 — AUG 2022</span>
+          <h3 class="timeline-role">B.Tech, Electronics &amp; Communication Engineering</h3>
+          <span class="timeline-org">Christu Jyothi Institute of Technology and Sciences · Yeshwanthapur, Telangana</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-head">
+      <span class="section-num">06</span>
+      <h2 class="section-title">CONTACT<span class="section-title-dim">.io</span></h2>
+    </div>
+    <div class="panel contact-panel" data-tilt>
+      <div class="panel-corner tl"></div><div class="panel-corner tr"></div>
+      <div class="panel-corner bl"></div><div class="panel-corner br"></div>
+      <p class="contact-lead">Open a channel. Let's build something intelligent.</p>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:saiprasadbandari7@gmail.com">
+          <span class="contact-label">EMAIL</span>
+          <span class="contact-value">saiprasadbandari7@gmail.com</span>
+        </a>
+        <a class="contact-item" href="tel:+33751704967">
+          <span class="contact-label">PHONE</span>
+          <span class="contact-value">+33 751 704 967</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/bandari-sai-prasad-676115385" target="_blank" rel="noopener">
+          <span class="contact-label">LINKEDIN</span>
+          <span class="contact-value">/in/bandari-sai-prasad</span>
+        </a>
+        <a class="contact-item" href="https://github.com/Saiprasadbandari" target="_blank" rel="noopener">
+          <span class="contact-label">GITHUB</span>
+          <span class="contact-value">/Saiprasadbandari</span>
+        </a>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <span>© 2026 SAI PRASAD BANDARI</span>
+      <span>BUILT FOR THE NEXT-GEN WEB</span>
+    </footer>
+  </section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
