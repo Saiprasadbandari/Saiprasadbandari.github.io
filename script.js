@@ -230,10 +230,11 @@ function initTypedText(){
   const el = document.getElementById('typed-text');
   if (!el) return;
   const phrases = [
-    'AI / DATA SCIENCE ENGINEER',
-    'MACHINE LEARNING ENGINEER',
-    'BUILDER OF INTELLIGENT SYSTEMS',
-    'MSc AI SYSTEMS — EPITA, PARIS'
+    'AI / ML ENGINEER',
+    'DATA SCIENTIST',
+    'RAG · LLM AGENTS · MLOPS',
+    'MSc AI SYSTEMS — EPITA, PARIS',
+    'AVAILABLE FROM JAN 2027'
   ];
   let pIndex = 0, charIndex = 0, deleting = false;
 

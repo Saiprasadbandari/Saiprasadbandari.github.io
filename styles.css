@@ -427,3 +427,8 @@ main{ position:relative; z-index: 10; }
   .section{ padding: 120px 6vw 80px; }
   .hero{ padding-top: 80px; }
 }
+
+/* odd last card spans full width */
+.projects-grid > .project-card:last-child:nth-child(odd){ grid-column: 1 / -1; }
+.skills-grid > .skill-card:last-child:nth-child(3n+1){ grid-column: 1 / -1; }
+@media (max-width: 1000px){ .skills-grid > .skill-card:last-child:nth-child(3n+1){ grid-column: auto; } .skills-grid > .skill-card:last-child:nth-child(odd){ grid-column: 1 / -1; } }
